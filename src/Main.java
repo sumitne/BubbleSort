@@ -37,6 +37,7 @@ public class Main {
         System.out.println("\n排序后的数组：");
         for (int i = 0; i < nums.length; i++){
             System.out.print(nums[i] + " ");
+       
         }
     }
 }
