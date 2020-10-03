@@ -1,9 +1,14 @@
 import java.util.Random;
-
+import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
+        }
         Random random = new Random();        //创建随机数生成器对象
         int[] nums = new int[16];            //创建数组
         int temp;                            //交换的临时变量
